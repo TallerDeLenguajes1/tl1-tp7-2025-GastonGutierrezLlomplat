@@ -7,7 +7,7 @@ bool opcion = true;
 do
 {
     Console.WriteLine("¿Que calculo desea realizar?");
-    Console.WriteLine("1. Sumar, 2.Restar, 3. Multiplicar, 4.Dividir, 5. Limpiar: ");
+    Console.WriteLine("1. Sumar, 2. Restar, 3. Multiplicar, 4. Dividir, 5. Limpiar: ");
 
     if (!int.TryParse(Console.ReadLine(), out int calculo) || (calculo < 1 || calculo > 5))
     {

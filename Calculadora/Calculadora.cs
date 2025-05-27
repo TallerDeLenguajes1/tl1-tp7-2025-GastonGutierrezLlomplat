@@ -37,4 +37,4 @@ public class Calculadora
     }
 
     public double Resultado { get => dato; }
-}
+    }
